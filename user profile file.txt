@@ -1,0 +1,9 @@
+user profile file
+git switch
+git fetch origin main
+git log --oneline --graph --all
+git merge origin main
+git switch -c feature/profile-screen
+git add .
+git commit -m "commit"
+git push -u origin feature/profile-screen
